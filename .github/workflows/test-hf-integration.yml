@@ -6,7 +6,6 @@ on:
 
 jobs:
   hf-integration-tests:
-    if: github.repository == 'skorch-dev/skorch'
     runs-on: ubuntu-latest
     steps:
       - name: Start Energy Measurement
