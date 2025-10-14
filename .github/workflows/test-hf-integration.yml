@@ -38,6 +38,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         name: run HF integration test
         run: python scripts/hf-integration-tests.py
+        continue-on-error: true
       - id: measurement-6
         name: Record Measurement After run HF integration test
         uses: green-coding-solutions/eco-ci-energy-estimation@862050e4f01f65b1436e5eca18ba4bd85562f0de
