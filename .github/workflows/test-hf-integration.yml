@@ -59,4 +59,4 @@ jobs:
         with:
           name: total-energy-consumption
           path: total_energy_consumption.json
-    timeout-minutes: 10
+   
